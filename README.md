@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QuizBuzz App
 
-## Getting Started
+## 🎯 Overview
+QuizBuzz is an interactive quiz platform that allows users to test their knowledge on MERN Stack development. Users can select a difficulty level, attempt quizzes, and track their progress.
 
-First, run the development server:
+## ✨ Features
+- **Quiz System**: Answer multiple-choice and input-based questions.
+- **Difficulty Levels**: Choose from Easy, Medium, or Hard.
+- **Instant Feedback**: Get immediate feedback on your answers.
+- **Correct Answer Display**: View the correct answer if you select the wrong one.
+- **Timer**: Each question must be answered within 30 seconds.
+- **Attempt History**: Tracks previous quiz attempts using IndexedDB.
+- **Responsive Design**: Fully functional on desktops, tablets, and mobile devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 How to Run the App Locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v16 or later)
+- **npm** or **yarn**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Steps
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AdityaSingh7905/Quiz-App
+   cd Quiz-App
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-## Learn More
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   or
+   ```bash
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open the app in your browser**
+   ```
+   http://localhost:3000
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Live Demo
+🔗 [QuizBuzz Live](https://quiz-app-omega-blush.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Technologies Used
+- **Frontend**: React.js, Next.js, Tailwind CSS
+- **State Management**: React Hooks
+- **Database**: IndexedDB for storing quiz attempts
+- **UI Enhancements**: Framer Motion for animations
+- **Deployment**: Vercel
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
